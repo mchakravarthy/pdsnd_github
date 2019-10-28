@@ -128,7 +128,6 @@ def trip_duration_stats(df):
 
     # display total travel time
     total_travel_time = df['Trip Duration'].sum()
-    print("Total travel time in seconds:\n", total_travel_time)
 
     #using divmod() function to convert seconds into hour(h), minutes(m) and seconds(s)
     m, s = divmod(total_travel_time, 60)
