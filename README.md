@@ -6,7 +6,7 @@
 Introduction to Git
 
 ### Description
-This project has the Bikeshare code and the data files 
+This project has the documentation on Bikeshare code and the data files 
 
 ### Files used
 Bikeshare.py
