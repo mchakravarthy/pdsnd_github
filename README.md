@@ -9,10 +9,10 @@ Introduction to Git
 This project has the documentation on Bikeshare code and the data files 
 
 ### Files used
-Bikeshare.py
-chicago.csv
-new_york_city.csv
-washington.csv
+1.bikeshare.py
+2.chicago.csv
+3.new_york_city.csv
+4.washington.csv
 
 ### Credits
 Udacity lessons
