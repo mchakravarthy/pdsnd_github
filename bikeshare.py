@@ -27,7 +27,7 @@ def get_filters():
             print('Check for typos and re-enter a valid city name')
 
     # get user input for month (all, january, february, ... , june)
-    # Add lower fucntion to accept lowe case months
+    # Add lower function  to accept lower case months
     while True:
         month = input("Enter the month- January, February, March, April, May, June or all?\n ").lower()
         if month in ('january', 'february', 'march', 'april', 'may', 'june', 'all'):
