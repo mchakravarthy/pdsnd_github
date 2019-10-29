@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import time
 import calendar
 import pandas as pd
@@ -27,6 +28,7 @@ def get_filters():
             print('Check for typos and re-enter a valid city name')
 
     # get user input for month (all, january, february, ... , june)
+    # Add lower function  to accept lower case months
     while True:
         month = input("Enter the month- January, February, March, April, May, June or all?\n ").lower()
         if month in ('january', 'february', 'march', 'april', 'may', 'june', 'all'):
@@ -35,6 +37,7 @@ def get_filters():
             print("Check for typos and re-enter a valid month")
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
+    # Add lower function  to accept lower case days
     while True:
         day = input("Enter the day- Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday or all?\n ").lower()
         if day in ('sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all'):
