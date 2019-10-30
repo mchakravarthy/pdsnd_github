@@ -169,7 +169,7 @@ def user_stats(df):
 
     # Display earliest, most recent, and most common year of birth
     # Convert Birth Year to int to avoid displaying decimal sign in the display
-    # Handle Key errors for ceratin city/month combinations
+    # Handle Key error exceptions for ceratin city/month combinations
     try:
         earliest_birth_year = int(df['Birth Year'].min())
         print("Earliest birth year:", earliest_birth_year)
