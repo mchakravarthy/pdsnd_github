@@ -153,8 +153,12 @@ def user_stats(df):
     start_time = time.time()
 
     # Display counts of user types
-    user_type = df['User Type'].value_counts()
-    print("User Type      Counts \n", user_type)
+    # Handle key error exception if user type not found
+    try:
+        user_type = df['User Type'].value_counts()
+        print("User Type    Counts \n", user_type)
+    except KeyError:
+        print("No user type available for this city and month")
 
     # Display counts of gender
     # Handle Key errors for ceratin city/month combinations
